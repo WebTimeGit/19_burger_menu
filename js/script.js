@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     let mobBtn_info = document.querySelector('.burger_btn2')
     let header_body = document.querySelector('.header_contact')
 
-    let header = document.querySelector('.header')
+    let main_wr = document.querySelector('.main_wr')
     let body = document.body
 
     function menuControl(btn, menu, hidden, overlay) {
@@ -200,13 +200,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     mobBtn.addEventListener('click', () => {
         setTimeout(() => {
-            menuControl(mobBtn, header_menuWr, body, body)
+            menuControl(mobBtn, header_menuWr, body, main_wr)
         }, 0)
     })
 
     mobBtn_info.addEventListener('click', () => {
         setTimeout(() => {
-            menuControl(mobBtn_info, header_body, body, body)
+            menuControl(mobBtn_info, header_body, body, main_wr)
         }, 0)
     })
 
