@@ -309,7 +309,7 @@ body {
     }
 
 
-    .header::after {
+    body::after {
         content: '';
         position: absolute;
         top: 0;
@@ -317,13 +317,12 @@ body {
         min-width: 100vw;
         min-height: 100vh;
         background: rgba(0,0,0,.5);
-        z-index: -1;
         transition: .3s ease;
         opacity: 0;
         pointer-events: none;
     }
 
-    .header.overlay::after {
+    body.overlay::after {
         opacity: 1;
         pointer-events: initial;
     }

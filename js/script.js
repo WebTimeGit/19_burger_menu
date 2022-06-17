@@ -200,13 +200,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     mobBtn.addEventListener('click', () => {
         setTimeout(() => {
-            menuControl(mobBtn, header_menuWr, body, header)
+            menuControl(mobBtn, header_menuWr, body, body)
         }, 0)
     })
 
     mobBtn_info.addEventListener('click', () => {
         setTimeout(() => {
-            menuControl(mobBtn_info, header_body, body, header)
+            menuControl(mobBtn_info, header_body, body, body)
         }, 0)
     })
 
