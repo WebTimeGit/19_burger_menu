@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video Widget</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="main_wr">
+    <header class="header">
+        <div class="container">
+            <div class="header_content">
+                <a href="#" class="header_logo">LogoCompany</a>
+                <ul class="header_nav">
+                    <li class='current-menu-item'><a href="#scroll1">link1</a></li>
+                    <li><a href="#scroll2">link2</a></li>
+                    <li><a href="#scroll3">link3</a></li>
+                    <li><a href="#scroll4">link4</a></li>
+                    <li><span>admin</span></li>
+                </ul>
+                <div class="header_contact">
+                    <a href="#" class="phone_number">+38(099)999-99-99</a>
+                    <span class="phone_address">Улица 23, офис №5</span>
+                    <a href="#" class="phone_mail">Company@gmail.com</a>
+                </div>
+
+                <div class='burger_btn'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class='burger_btn2'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main_content">
+                <aside class="aside">
+                    <h2 class="page_title">Aside Tittle</h2>
+                    <ul class="aside_list">
+                        <li>aside news1</li>
+                        <li>aside news2</li>
+                        <li>aside news3</li>
+                        <li>aside news4</li>
+                        <li>aside news5</li>
+                    </ul>
+                </aside>
+                <div class="content">
+                    <section class="section">
+                        <h2 class="page_title">Page Tittle</h2>
+                        <article class="article_page current_block" id='scroll1'>
+                            <div class="article_img">
+                                <picture>
+                                    <source srcset="img/article_img1.webp" type="image/webp">
+                                    <img src="img/article_img1.jpg" alt="image">
+                                </picture>
+                            </div>
+                            <div class="article_content">
+                                <h3 class="article_tittle">Article Tittle</h3>
+                                <div class="article_date">23.12.2021</div>
+                                <p class="article_text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi deserunt quibusdam sequi sit ullam voluptate!
+                                </p>
+                            </div>
+
+
+                        </article>
+                        <article class="article_page" id='scroll2'>
+                            <div class="article_img">
+                                <picture>
+                                    <source srcset="img/article_img1.webp" type="image/webp">
+                                    <img src="img/article_img1.jpg" alt="image">
+                                </picture>
+                            </div>
+                            <div class="article_content">
+                                <h3 class="article_tittle">Article Tittle</h3>
+                                <div class="article_date">23.12.2021</div>
+                                <p class="article_text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi deserunt quibusdam sequi sit ullam voluptate!
+                                </p>
+                            </div>
+
+
+                        </article>
+                        <article class="article_page" id='scroll3'>
+                            <div class="article_img">
+                                <picture>
+                                    <source srcset="img/article_img1.webp" type="image/webp">
+                                    <img src="img/article_img1.jpg" alt="image">
+                                </picture>
+                            </div>
+                            <div class="article_content">
+                                <h3 class="article_tittle">Article Tittle</h3>
+                                <div class="article_date">23.12.2021</div>
+                                <p class="article_text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi deserunt quibusdam sequi sit ullam voluptate!
+                                </p>
+                            </div>
+
+
+                        </article>
+                        <article class="article_page" id='scroll4'>
+                            <div class="article_img">
+                                <picture>
+                                    <source srcset="img/article_img1.webp" type="image/webp">
+                                    <img src="img/article_img1.jpg" alt="image">
+                                </picture>
+                            </div>
+                            <div class="article_content">
+                                <h3 class="article_tittle">Article Tittle</h3>
+                                <div class="article_date">23.12.2021</div>
+                                <p class="article_text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi deserunt quibusdam sequi sit ullam voluptate!
+                                </p>
+                            </div>
+
+
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_container">
+                <p class="footer_copyright">
+                    @my site 2021
+                </p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<div class="widget_video">
+    <video autoplay loop playsinline preload="auto">
+<!--        <source src="img/video1.webm" type="video/webm">-->
+        <source src="img/video1.mp4" type="video/mp4">
+    </video>
+    <div class="controlBtn">
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
